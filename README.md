@@ -1,3 +1,3 @@
 # 3dprint_klipper_config
 
-Clone this into `/home/pi/klipper_config`, then `ln -s /home/pi/klipper_config/printer.cfg /home/pi`.
+Clone this into `/home/pi/kconfig`, then edit `/etc/default/klipper` so that `KLIPPY_ARGS` points to `/home/pi/kconfig/printer.cfg`
